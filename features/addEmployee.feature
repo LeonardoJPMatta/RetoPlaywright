@@ -1,3 +1,5 @@
+#language: en
+
 Feature: Gestión de empleados en OrangeHRM
 
   Scenario: Iniciar sesión y agregar un nuevo empleado

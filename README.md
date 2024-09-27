@@ -1,5 +1,5 @@
 # RetoPlaywright
-
+QA Automation - Leonardo JP Matta
 GUIA DE INSTALACION 
 Configuracion de PlayWright
 -	Abrir el IDE de su preferncia en este caso estamos usando Visual Studio 

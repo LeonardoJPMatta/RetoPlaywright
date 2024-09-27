@@ -1,0 +1,25 @@
+{
+  "name": "tests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.47.2",
+    "@types/node": "^22.7.2"
+  },
+  "scripts": {
+    "test": "cucumber-js --require-module ts-node/register"
+  },
+  "cucumber": {
+    "require": [
+      "steps/*.js"
+    ]
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^11.0.1",
+    "cucumber": "^6.0.7"
+  }
+}

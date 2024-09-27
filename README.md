@@ -108,6 +108,62 @@ Casos de Prueba para la Funcionalidad de Login
               3.	Rellenar el campo de contraseña y hacer clic en "Iniciar sesión".
        o	Resultado Esperado: Mostrar un mensaje de error indicando que la cuenta está bloqueada.
 
+Casos de Prueba para "Add Employee"
+
+9. CP01 - Agregar un Empleado con Éxito
+       o	Descripción: Verificar que un usuario puede agregar un nuevo empleado con     todos los datos válidos.
+       o	Precondición: El usuario debe estar autenticado y en la página de "Add Employee".
+       o	Pasos:
+              1.	Navegar a la sección "PIM".
+              2.	Seleccionar "Add Employee".
+              3.	Ingresar todos los campos obligatorios (nombre, apellido, ID de empleado).
+              4.     Hacer clic en "Save".
+       o	Resultado Esperado: El sistema muestra un mensaje de éxito y el nuevo empleado aparece en la lista de empleados.
+10. CP02 - Agregar un Empleado sin Nombre
+       o	Descripción: Verificar que no se puede agregar un empleado sin proporcionar un nombre.
+       o	Precondición: El usuario debe estar autenticado y en la página de "Add Employee".
+       o	Pasos:
+              1.	Navegar a la sección "PIM".
+              2.	Seleccionar "Add Employee".
+              3.	Dejar el campo de nombre vacío.
+              4.     Ingresar un apellido y un ID de empleado.
+              5.     Hacer clic en "Save".
+       o	Resultado Esperado: El sistema muestra un mensaje de error indicando que el campo de nombre es obligatorio.
+11. CP03 - Agregar un Empleado sin Apellido
+       o	Descripción: Verificar que no se puede agregar un empleado sin proporcionar un apellido.
+       o	Precondición: El usuario debe estar autenticado y en la página de "Add Employee".
+       o	Pasos:
+              1.	Navegar a la sección "PIM".
+              2.	Seleccionar "Add Employee".
+              3.	Ingresar un nombre y un ID de empleado.
+              4.     Dejar el campo de apellido vacío.
+              5.     Hacer clic en "Save".
+       o	Resultado Esperado: El sistema muestra un mensaje de error indicando que el campo de apellido es obligatorio.
+12. CP04 - Agregar un Empleado con ID de Empleado Duplicado
+       o	Descripción: Verificar que no se puede agregar un empleado con un ID de empleado que ya existe.
+       o	Precondición: El usuario debe estar autenticado y en la página de "Add Employee". Ya debe existir un empleado con el mismo ID.
+       o	Pasos:
+              1.	Navegar a la sección "PIM".
+              2.	Seleccionar "Add Employee".
+              3.	Ingresar un nombre, un apellido y un ID de empleado que ya existe.
+              4.     Hacer clic en "Save".
+       o	Resultado Esperado: El sistema muestra un mensaje de error indicando que el ID de empleado ya está en uso.
+13. CP05 - Agregar un Empleado con Datos Incompletos
+       o	Descripción: Verificar que el sistema maneja adecuadamente la situación en que se ingresan datos incompletos.
+       o	Precondición: El usuario debe estar autenticado y en la página de "Add Employee".
+       o	Pasos:
+              1.	Navegar a la sección "PIM".
+              2.	Seleccionar "Add Employee".
+              3.	Ingresar un nombre y dejar otros campos vacíos.
+       o	Resultado Esperado: El sistema muestra mensajes de error indicando que los campos obligatorios deben ser completados.
+14. CP06 - Verificar el Comportamiento de la Interfaz de Usuario
+       o	Descripción: Verificar que todos los elementos de la interfaz de usuario en la página "Add Employee" se cargan correctamente.
+       o	Precondición: El usuario debe estar autenticado y en la página de "Add Employee".
+       o	Pasos:
+              1.	Navegar a la sección "PIM".
+              2.	Seleccionar "Add Employee".
+       o	Resultado Esperado: Todos los campos de entrada, botones y mensajes de ayuda deben estar visibles y correctamente etiquetados.
+
 --------------------------------------------------------------------------------------------
 
 Técnica de diseño de casos de prueba

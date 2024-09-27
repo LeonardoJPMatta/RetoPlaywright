@@ -39,22 +39,22 @@ GUIA DE USO
 
 Casos de Prueba para la Funcionalidad de Login
 1. CP01 - Login exitoso con credenciales válidas
-       o	Descripción: Verificar que un usuario puede iniciar sesión con credenciales correctas.
-       o	Pasos:
-              1.	Ir a la página de login.
-              2.	Rellenar el campo de usuario con un nombre válido.
-              3.	Rellenar el campo de contraseña con la contraseña correcta.
-              4.	Hacer clic en "Iniciar sesión".
+       o Descripción: Verificar que un usuario puede iniciar sesión con credenciales correctas.
+       o Pasos:
+              1. Ir a la página de login.
+              2. Rellenar el campo de usuario con un nombre válido.
+              3. Rellenar el campo de contraseña con la contraseña correcta.
+              4. Hacer clic en "Iniciar sesión".
        o	Resultado Esperado: El usuario es redirigido a la página de inicio y ve un mensaje de bienvenida.
 
 2. CP02 - Login fallido con contraseña incorrecta
-       o	Descripción: Verificar que el login falla si la contraseña es incorrecta.
-       o	Pasos:
-              1.	Ir a la página de login.
-              2.	Rellenar el campo de usuario con un nombre válido.
-              3.	Rellenar el campo de contraseña con una contraseña incorrecta.
-              4.	Hacer clic en "Iniciar sesión".
-       o	Resultado Esperado: Mostrar un mensaje de error indicando "Credenciales incorrectas".
+       o Descripción: Verificar que el login falla si la contraseña es incorrecta.
+       o Pasos:
+              1. Ir a la página de login.
+              2. Rellenar el campo de usuario con un nombre válido.
+              3. Rellenar el campo de contraseña con una contraseña incorrecta.
+              4. Hacer clic en "Iniciar sesión".
+       o Resultado Esperado: Mostrar un mensaje de error indicando "Credenciales incorrectas".
 
 3. CP03 - Login fallido con usuario incorrecto
        o	Descripción: Verificar que el login falla si el usuario es incorrecto.
